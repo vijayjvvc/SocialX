@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "893170773284",
+    "firebase_url": "https://socialx-5e3de-default-rtdb.firebaseio.com",
+    "project_id": "socialx-5e3de",
+    "storage_bucket": "socialx-5e3de.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:893170773284:android:5c89549a70d1e8903157b1",
+        "android_client_info": {
+          "package_name": "com.jvworld.socialx"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "893170773284-fh21u3soklranvkjm3apnct233ouut55.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.jvworld.socialx",
+            "certificate_hash": "27c10dbabc6aabae671ed531c4e7347d3e3c3923"
+          }
+        },
+        {
+          "client_id": "893170773284-7vorv7auv9enrs3psm9kusrpdr9petol.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAz0oYQmn1fO1_MHmTwlrLJsFUkFe18z64"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "893170773284-7vorv7auv9enrs3psm9kusrpdr9petol.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

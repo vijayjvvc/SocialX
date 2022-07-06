@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Practice/Android/SocialX/app/src/main/res/drawable/bg_btn.xml" value="0.1" />
+        <entry key="..\:/Practice/Android/SocialX/app/src/main/res/drawable/bg_corner.xml" value="0.136" />
+        <entry key="..\:/Practice/Android/SocialX/app/src/main/res/drawable/ic_email.xml" value="0.1" />
+        <entry key="..\:/Practice/Android/SocialX/app/src/main/res/layout/activity_main.xml" value="0.264" />
+        <entry key="..\:/Practice/Android/SocialX/app/src/main/res/layout/activity_sign_up.xml" value="0.192481884057971" />
+        <entry key="..\:/Practice/Android/SocialX/app/src/main/res/layout/activity_signin.xml" value="0.12962962962962962" />
+        <entry key="..\:/Practice/Android/SocialX/app/src/main/res/layout/login_card.xml" value="0.264" />
+        <entry key="..\:/Practice/Android/SocialX/app/src/main/res/layout/news_layout.xml" value="0.4" />
+        <entry key="..\:/Practice/Android/SocialX/app/src/main/res/layout/signup_card.xml" value="0.192481884057971" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

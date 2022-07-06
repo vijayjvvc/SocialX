@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/in_layout"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginStart="15dp"
+        app:boxStrokeErrorColor="@android:color/holo_red_dark"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="match_parent"
+        app:startIconDrawable="@drawable/ic_search"
+        android:layout_toStartOf="@+id/logout_btn"
+        android:layout_height="50dp">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/search_feed"
+            android:padding="1dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:hint="Search from feed"/>
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/in_layout">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/news_recycle"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+    </androidx.core.widget.NestedScrollView>
+
+    <TextView
+        android:id="@+id/logout_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:background="@color/blue"
+        android:layout_marginTop="10dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:foreground="?android:attr/selectableItemBackground"
+        android:padding="10dp"
+        android:text="Log Out"
+        android:textColor="@color/white" />
+
+</RelativeLayout>
